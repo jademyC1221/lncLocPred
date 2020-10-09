@@ -7,7 +7,7 @@ We trained a model that predicts the subcellular localization of the long non-co
 ## Dependency
 Matalb R2018a  
 Python3.6  
-sklearn  
+scikit-learn 0.19.1
 
 ## Content
 ./whole./src:  
