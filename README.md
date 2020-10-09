@@ -33,3 +33,8 @@ Independent dataset is dowmloaded from RNALocate.
 1.you should first store your sequences data for prediction in data.fasta or data.txt or data.xlsx.  
 2.you should calculate SC-PseDNC feature and Triplet feature though Pse-in-One 2.0, and datapse.txt and datatriplet.txt are the results you obtain.  
 3.Open the lncLocPredTool.py and press F5 to execute. Follow the prompts on the interface to complete the prediction. After the prediction is completed, the results will be saved as a txt file.
+
+## EXE
+Users can download the binary tool from Baidu Netdisk, here is the information:
+link：https://pan.baidu.com/s/1LY3CM9BMlRMWjPs42nR-pA 
+password：b3ng 
