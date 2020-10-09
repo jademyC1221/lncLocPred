@@ -97,7 +97,10 @@ def predictloc():
     steps.append(('MinMaxScaler', MinMaxScaler(feature_range=(-1, 1))))
     steps.append(('LR', LogisticRegression(C =1000, multi_class='multinomial', solver='lbfgs')))
     model = Pipeline(steps)
+    
+    trainlabel = trainlabel.reshape(len(trainlabel),)
     clf = model.fit(traindata, trainlabel)
+    
     #location : 1:Nucleus ; 2:Cytoplasm ; 3:Ribosome ; 4:Exosome 
     location = clf.predict(testdata) 
     #p : Probability of predicted sequence at various subcellular locations
