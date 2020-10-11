@@ -35,7 +35,4 @@ Independent dataset is dowmloaded from RNALocate.
 3.Open the lncLocPredTool.py and press F5 to execute. Follow the prompts on the interface to complete the prediction. After the prediction is completed, the results will be saved as a txt file.  
 4.To increase the speed of prediction, you can use KmernorCL113.m in matlab to get kmernorcl9080.mat, then, put kmernorcl9080.mat together with SC-PseDNC feature and Triplet feature into predictloc.py in python for predicting.
 
-## EXE
-Users can download the binary tool from Baidu Netdisk, here is the information:
-link：https://pan.baidu.com/s/1LY3CM9BMlRMWjPs42nR-pA 
-password：b3ng 
+
