@@ -30,9 +30,10 @@ Independent dataset is dowmloaded from RNALocate.
 8.The folder named "traindata"  contains the the selected feature files including different feature combinations and the calculated results for independent dataset.
 
 ## Predict
-1.you should first store your sequences data for prediction in data.fasta or data.txt or data.xlsx.  
-2.you should calculate SC-PseDNC feature and Triplet feature though Pse-in-One 2.0, and datapse.txt and datatriplet.txt are the results you obtain.  
+1.You should first store your sequences data for prediction in data.fasta or data.txt or data.xlsx.  
+2.You should calculate SC-PseDNC feature and Triplet feature though Pse-in-One 2.0, and datapse.txt and datatriplet.txt are the results you obtain.  
 3.Open the lncLocPredTool.py and press F5 to execute. Follow the prompts on the interface to complete the prediction. After the prediction is completed, the results will be saved as a txt file.
+4.To increase the speed of prediction, you can use KmernorCL113.m in matlab to get kmernorcl9080.mat, then, put kmernorcl9080.mat together with SC-PseDNC feature and Triplet feature into predictloc.py in python for predicting.
 
 ## EXE
 Users can download the binary tool from Baidu Netdisk, here is the information:
