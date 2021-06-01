@@ -31,7 +31,7 @@ acc=result.mean()
 print("evaluate result：%.7f%% (%.7f%%)" % (result.mean() * 100, result.std() * 100))
 loocv.get_n_splits(data)
 a=loocv._iter_test_indices(data)
-predictionI=[]
+prediction=[]
 for train_index, test_index in loocv.split(data):
     X_train, X_test = data[train_index], data[test_index]
     y_train, y_test = Y[train_index], Y[test_index]
@@ -40,7 +40,7 @@ for train_index, test_index in loocv.split(data):
     predictionj=model.predict_proba(X_test)
     predictionI.append(predictioni)
     predictionJ.append(predictionj)
-PredictionI=np.array(predictionI)  
+Prediction=np.array(prediction)  
 
 #Sn，Sp，MCC，OA calculated according to definition in paper.
 import math
